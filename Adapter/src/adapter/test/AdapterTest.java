@@ -15,8 +15,8 @@ public class AdapterTest {
 		Paloma paloma = new PalomaImpl();
 		paloma.gorgorea();
 		
-		Paloma adapter = new AdapterPollito(pollito);
-		adapter.gorgorea();
+		Paloma palomaAdaptada = new AdapterPollito(pollito);
+		palomaAdaptada.gorgorea();
 		
 	}
 }
