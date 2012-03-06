@@ -1,4 +1,4 @@
-package abstractfactory.impl;
+package abstractfactory.impl.mx;
 
 import abstractfactory.Address;
 
