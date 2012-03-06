@@ -1,5 +1,6 @@
 package observer;
 
-public class Observer {
+public interface Observer {
+	
 
 }
