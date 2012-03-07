@@ -13,7 +13,6 @@ public class AdapterTest {
 		adapter.enciendeSistemaA();
 		adapter.apagaSistemaB();
 		adapter.calientaSistemaB();
-
 	}
 
 }
