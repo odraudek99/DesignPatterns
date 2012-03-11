@@ -12,6 +12,7 @@ public class SeccionA {
 	public SeccionA(String cve, int val) {
 		this.valor = val;
 		this.variable = cve;
+		System.out.println("Build seccion A");
 	}
 	
 	public String getVariable() {

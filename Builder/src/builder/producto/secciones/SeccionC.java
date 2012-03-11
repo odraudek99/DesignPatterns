@@ -13,6 +13,7 @@ public class SeccionC {
 	public SeccionC(String variable, int valor) {
 		this.variable = variable;
 		this.valor = valor;
+		System.out.println("Build seccion C");
 	}
 	public String getVariable() {
 		return variable;

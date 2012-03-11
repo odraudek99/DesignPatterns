@@ -8,17 +8,22 @@ import builder.producto.secciones.SeccionC;
 public class Manager {
 	
 	
-	private Builder builder;
-	
-	public Producto buildProducto() {
+	public static Producto buildProducto(Builder builder) {
 		
-		builder.buildProducto();
 		
 		builder.buildSeccionA(new SeccionA());
 		builder.buildSeccionB("forma", 1);
 		builder.buildSeccionC(new SeccionC());
 		
 		return builder.getProducto();
+		
+	}
+	
+	public static void main(String args[]) {
+		Builder builder = new Builder();
+		Producto producto = Manager.buildProducto(builder);
+		System.out.println("Producto: " + producto.toString());
+		
 		
 	}
 

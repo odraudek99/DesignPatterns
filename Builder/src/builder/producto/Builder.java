@@ -6,7 +6,7 @@ import builder.producto.secciones.SeccionC;
 
 public class Builder {
 
-	private Producto producto;
+	private Producto producto = new Producto();
 	
 	
 	public Producto getProducto() {
@@ -21,17 +21,18 @@ public class Builder {
 		return new Producto();
 	}
 	
-	
-	
 	public void buildSeccionA(SeccionA seccionA) {
 		producto.setSeccionA(seccionA);
+		System.out.println("Build seccion A");
 	}
 	
 	public void buildSeccionB(String cve, int value) {
 		producto.setSeccionB(new SeccionB(cve, value));
+		System.out.println("Build seccion B");
 	}
 	
 	public void buildSeccionC(SeccionC seccionC) {
+		System.out.println("Build seccion C");
 		producto.setSeccionC(seccionC);
 	}
 

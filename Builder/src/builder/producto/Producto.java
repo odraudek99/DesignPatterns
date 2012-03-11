@@ -10,6 +10,10 @@ public class Producto {
 	private SeccionB seccionB;
 	private SeccionC seccionC;
 	
+	public Producto() {
+		System.out.println("Constructor Producto");
+	}
+	
 	public SeccionA getSeccionA() {
 		return seccionA;
 	}
