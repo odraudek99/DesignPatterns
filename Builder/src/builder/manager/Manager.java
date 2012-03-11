@@ -10,7 +10,6 @@ public class Manager {
 	
 	public static Producto buildProducto(Builder builder) {
 		
-		
 		builder.buildSeccionA(new SeccionA());
 		builder.buildSeccionB("forma", 1);
 		builder.buildSeccionC(new SeccionC());
