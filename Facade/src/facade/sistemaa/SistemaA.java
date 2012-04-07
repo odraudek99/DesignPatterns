@@ -1,4 +1,4 @@
-package adapter.sistemaa;
+package facade.sistemaa;
 
 public interface SistemaA {
 

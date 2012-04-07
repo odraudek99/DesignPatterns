@@ -1,14 +1,14 @@
-package adapter.test;
+package facade.test;
 
-import adapter.Adapter;
+import facade.Facade;
 
-public class AdapterTest {
+public class FacadeTest {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Adapter adapter = new Adapter();
+		Facade adapter = new Facade();
 		adapter.apagaSistemaA();
 		adapter.enciendeSistemaA();
 		adapter.apagaSistemaB();

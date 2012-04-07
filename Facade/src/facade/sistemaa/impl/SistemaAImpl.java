@@ -1,6 +1,6 @@
-package adapter.sistemaa.impl;
+package facade.sistemaa.impl;
 
-import adapter.sistemaa.SistemaA;
+import facade.sistemaa.SistemaA;
 
 public class SistemaAImpl implements SistemaA {
 

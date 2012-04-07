@@ -1,4 +1,4 @@
-package adapter.sistemab;
+package facade.sistemab;
 
 public interface SistemaB {
 

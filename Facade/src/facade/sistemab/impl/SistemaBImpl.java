@@ -1,6 +1,6 @@
-package adapter.sistemab.impl;
+package facade.sistemab.impl;
 
-import adapter.sistemab.SistemaB;
+import facade.sistemab.SistemaB;
 
 public class SistemaBImpl implements SistemaB {
 

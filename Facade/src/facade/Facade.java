@@ -1,16 +1,16 @@
-package adapter;
+package facade;
 
-import adapter.sistemaa.SistemaA;
-import adapter.sistemaa.impl.SistemaAImpl;
-import adapter.sistemab.SistemaB;
-import adapter.sistemab.impl.SistemaBImpl;
+import facade.sistemaa.SistemaA;
+import facade.sistemaa.impl.SistemaAImpl;
+import facade.sistemab.SistemaB;
+import facade.sistemab.impl.SistemaBImpl;
 
-public class Adapter implements SistemaA, SistemaB {
+public class Facade implements SistemaA, SistemaB {
 
 	private SistemaA sistemaA;
 	private SistemaB sistemaB;
 	
-	public Adapter() {
+	public Facade() {
 		sistemaA = new SistemaAImpl();
 		sistemaB = new SistemaBImpl();
 	}
