@@ -29,6 +29,7 @@ public class ObservableImpl implements Observable {
 	}
 
 	public void setValues(int state, float calif) {
+		System.out.println("ObservableImpl: Updating observable");
 		this.state = state;
 		this.calif = calif;
 		notifyObservers();

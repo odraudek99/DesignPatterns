@@ -24,7 +24,7 @@ public class ObserverImpl implements Observer, GUI {
 	
 	
 	public void display() {
-		System.out.println("Updated: state = "+ state + "; calif = " + calif);
+		System.out.println("ObserverImpl: Observable Updated: state = "+ state + "; calif = " + calif);
 		
 	}
 	
