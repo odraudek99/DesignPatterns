@@ -15,41 +15,30 @@ public class ObserverImpl implements Observer, GUI {
 		obs.addObserver(this);
 	}
 	
-	
 	public void update(int state, float calif) {
 		this.state = state;
 		this.calif = calif;
 		this.display();
 	}
 	
-	
 	public void display() {
 		System.out.println("ObserverImpl: Observable Updated: state = "+ state + "; calif = " + calif);
-		
 	}
 	
-
-
 	public int getState() {
 		return state;
 	}
-
 
 	public void setState(int state) {
 		this.state = state;
 	}
 
-
 	public float getCalif() {
 		return calif;
 	}
-
 
 	public void setCalif(float calif) {
 		this.calif = calif;
 	}
 
-
-		
-	
 }

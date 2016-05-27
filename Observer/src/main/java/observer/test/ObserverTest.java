@@ -16,10 +16,7 @@ public class ObserverTest {
 		
 		Observable subject = new ObservableImpl();
 		Observer observer = new ObserverImpl(subject);
-		
-		
-		
-		
+				
 		subject.setValues(1, 3.1f);
 
 	}
