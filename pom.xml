@@ -1,17 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
-	<parent>
-		<groupId>mx.odraudek99</groupId>
-		<artifactId>design-patterns</artifactId>
-		<version>0.0.2-SNAPSHOT</version>
-	</parent>
-
-	<artifactId>pattern-singleton</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-
-
+	<groupId>mx.odraudek99</groupId>
+	<artifactId>design-patterns</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
@@ -35,5 +27,16 @@
 
 	</dependencies>
 
+	<modules>
+  		<module>AbstractFactory</module>
+  		<module>Adapter</module>
+  		<module>Builder</module>
+  		<module>Facade</module>
+  		<module>Mediator</module>
+  		<module>Observer</module>
+  		<module>Singleton</module>
 
+ 	</modules>
+
+	<packaging>pom</packaging>
 </project>
