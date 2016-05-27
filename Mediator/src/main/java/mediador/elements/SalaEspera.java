@@ -10,13 +10,13 @@ public class SalaEspera implements Elemento {
 		mediador = med;
 	}
 	
-	@Override
+
 	public void setInformacion(Object info) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+
 	public void ocurreEvento() {
 		mediador.updateStateSala();
 	}

@@ -11,12 +11,12 @@ public class Pista implements Elemento {
 	}
 	
 	
-	@Override
+
 	public void setInformacion(Object info) {
 		System.out.println("Recupera info para actualizar pista");
 	}
 
-	@Override
+
 	public void ocurreEvento() {
 		mediador.updateStatePista();
 	}
